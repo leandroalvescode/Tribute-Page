@@ -1,0 +1,35 @@
+.discography{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.title_discography{
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color:#8C111C ;
+}
+.album {
+    justify-content: center;
+    display: flex;
+    margin-top:4% ;
+}
+
+.album_1, .album_2, .album_3{
+    display: flex;
+    max-width: 30%;
+    color: #fff;
+}
+.cover_1, .cover_2, .cover_3{
+
+    width: 200px;
+    margin-right: 10%;
+}
+.musics_1, .musics_2, .musics_3{
+    margin-right: 5%;
+    font-size: 12px;
+}
+li{
+    margin-top: 5px;
+}
