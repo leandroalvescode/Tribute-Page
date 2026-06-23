@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/biography.css">
     <link rel="stylesheet" href="assets/css/discography.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
@@ -14,19 +15,25 @@
 </head>
 <body>
     <header>
-        <div class="cabecalho">
-            <div class="title_header">
-                <div class="resume_1">
-                    Biografia
-                </div>
-                <div class="resume_2">
-                    Página de Tributo
-                </div>
-                <div class="resume_3">
-                    Discografia
+        <nav class="menu">
+            <div class="cabecalho">
+                <div class="title_header">
+                    <a href="#s_biography">
+                        <div class="resume_1">
+                            Biografia
+                        </div>
+                    </a>
+                    <div class="resume_2">
+                        Página de Tributo
+                    </div>
+                    <a href="#s_discography">
+                        <div class="resume_3">
+                            Discografia
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
+        </nav>
         <div class="images_header">
             <div class="image_background_left">
                 <img src="https://preview.redd.it/amy-winehouse-in-black-white-v0-0541wr5q935b1.jpg?width=500&format=pjpg&auto=webp&s=f8d8e68b3d2765869e2d982edadb196e2b20e57d" alt="">
@@ -50,96 +57,104 @@
 
     <!-- ------------------------------------------------------------------------- -->
 
-    <section class="s_biography">
-        <div class="biography">
-            <div class="biography_text">
-                <h1 class="biograpgy_title">
-                    Biografia
+    <div class="container">
+        <section id="s_biography">
+            <div class="biography">
+                <div class="biography_text">
+                    <h1 class="biograpgy_title">
+                        Biografia
+                    </h1>
+                    <p>
+                        Amy Winehouse nasceu em 14 de setembro de 1983, em Londres, e foi uma cantora e compositora britânica reconhecida por sua voz marcante e estilo que misturava jazz, soul e R&B. Desde jovem demonstrou interesse pela música e começou a escrever canções inspiradas por artistas clássicos do jazz. Seu primeiro álbum, Frank, recebeu destaque da crítica e apresentou ao público seu talento para composições pessoais e interpretações intensas.
+                    </p>
+                    <p>
+                        O grande reconhecimento internacional veio com o lançamento do álbum Back to Black, considerado um dos trabalhos mais influentes dos anos 2000. O disco trouxe músicas de grande sucesso como Rehab e Back to Black, consolidando Amy como uma das artistas mais importantes de sua geração. Seu visual retrô, combinado com letras emocionais e autobiográficas, ajudou a criar uma identidade artística única.
+                    </p>
+                    <p>
+                        Apesar do enorme sucesso, Amy também enfrentou dificuldades pessoais e problemas relacionados à saúde e dependência química, que frequentemente chamavam atenção da mídia. Em 23 de julho de 2011, faleceu aos 27 anos, encerrando uma carreira curta, mas muito marcante. Mesmo após sua morte, seu legado permanece forte e ela continua sendo lembrada como uma artista que influenciou profundamente a música contemporânea.
+                    </p>
+                </div>
+                <div class="biography_image">
+                    <div class="b_image">
+                        <img src="https://pbs.twimg.com/media/Cxwm22AVIAAW2Cb.jpg" alt="" class="b_image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------------------------------------------------------------------------------- -->
+         <section ID="s_discography">
+            <div class="discography">
+                <h1 class="title_discography">
+                    Discografia
                 </h1>
-                <p>
-                    Amy Winehouse nasceu em 14 de setembro de 1983, em Londres, e foi uma cantora e compositora britânica reconhecida por sua voz marcante e estilo que misturava jazz, soul e R&B. Desde jovem demonstrou interesse pela música e começou a escrever canções inspiradas por artistas clássicos do jazz. Seu primeiro álbum, Frank, recebeu destaque da crítica e apresentou ao público seu talento para composições pessoais e interpretações intensas.
-                </p>
-                <p>
-                    O grande reconhecimento internacional veio com o lançamento do álbum Back to Black, considerado um dos trabalhos mais influentes dos anos 2000. O disco trouxe músicas de grande sucesso como Rehab e Back to Black, consolidando Amy como uma das artistas mais importantes de sua geração. Seu visual retrô, combinado com letras emocionais e autobiográficas, ajudou a criar uma identidade artística única.
-                </p>
-                <p>
-                    Apesar do enorme sucesso, Amy também enfrentou dificuldades pessoais e problemas relacionados à saúde e dependência química, que frequentemente chamavam atenção da mídia. Em 23 de julho de 2011, faleceu aos 27 anos, encerrando uma carreira curta, mas muito marcante. Mesmo após sua morte, seu legado permanece forte e ela continua sendo lembrada como uma artista que influenciou profundamente a música contemporânea.
-                </p>
-            </div>
-            <div class="biography_image">
-                <img src="https://pbs.twimg.com/media/Cxwm22AVIAAW2Cb.jpg" alt="" class="b_image">
-            </div>
-        </div>
-    </section>
-    <!-- ------------------------------------------------------------------------------- -->
-     <section class="s_discography">
-        <div class="discography">
-            <h1 class="title_discography">
-                Discografia
-            </h1>
-            <div class="album">
-                <div class="album_1">
-                    <div class="album_cover_1">
-                        <img src="https://images.openai.com/static-rsc-4/EiPCd_dL0Gd0mNEKpMDZvIy0bgK4NbIRKwB0lXPKzsLdk4wkb6amIxyHPpxLZYyms5lRgnj9GuAMXGGqKiPVvo675U5WkMkIbz2wBo-9uEFbVGTl1Yq1lc5GtgKe4_7LM1qBfb0vgbjEVwtoOTpDqUmJtqQ8XS0HL-QNd75Ws_S1FgrJ-5F8xUS6xZKY7Y22?purpose=fullsize" alt="" class="cover_1">
+                <div class="album">
+                    <div class="album_1">
+                        <div class="album_cover_1">
+                            <img src="https://images.openai.com/static-rsc-4/EiPCd_dL0Gd0mNEKpMDZvIy0bgK4NbIRKwB0lXPKzsLdk4wkb6amIxyHPpxLZYyms5lRgnj9GuAMXGGqKiPVvo675U5WkMkIbz2wBo-9uEFbVGTl1Yq1lc5GtgKe4_7LM1qBfb0vgbjEVwtoOTpDqUmJtqQ8XS0HL-QNd75Ws_S1FgrJ-5F8xUS6xZKY7Y22?purpose=fullsize" alt="" class="cover_1">
+                        </div>
+                        <ol class="musics_1">
+                            Album 1
+                            <li>Stronger Than Me</li>
+                            <li>You Sent Me Flying</li>
+                            <li>Cherry</li>
+                            <li>Fuck Me Pumps</li>
+                            <li>I Heard Love Is Blind</li>
+                            <li>Moody's Mood for Love</li>
+                            <li>(There Is) No Greater Love</li>
+                            <li>In My Bed</li>
+                            <li>Take the Box</li>
+                            <li>October Song</li>
+                            <li>What Is It About Men</li>
+                            <li>Help Yourself</li>
+                            <li>Amy Amy Amy</li>
+                        </ol>
                     </div>
-                    <ol class="musics_1">
-                        Album 1
-                        <li>Stronger Than Me</li>
-                        <li>You Sent Me Flying</li>
-                        <li>Cherry</li>
-                        <li>Fuck Me Pumps</li>
-                        <li>I Heard Love Is Blind</li>
-                        <li>Moody's Mood for Love</li>
-                        <li>(There Is) No Greater Love</li>
-                        <li>In My Bed</li>
-                        <li>Take the Box</li>
-                        <li>October Song</li>
-                        <li>What Is It About Men</li>
-                        <li>Help Yourself</li>
-                        <li>Amy Amy Amy</li>
-                    </ol>
-                </div>
-                <div class="album_2">
-                    <div class="album_cover_2">
-                        <img src="https://images.openai.com/static-rsc-4/-zzE57_k0IF6CJBsQdOdz4s3GSvKGZNYSzvbWoeteUeBm_sqm77tznA7eWQH6ypHE_vEsiSE2i0JcHhkNe7gH3fflZUzfyLUYrYRiQUuahupjnL5mpAI2r-1a4RZ45GAVm5b6xtOQUSht9IoYySPnMbHzYO6YJlFfvM8st6Wfzt_2QQH_i3GgYclt9medwgB?purpose=fullsize" alt="" class="cover_2">
+                    <div class="album_2">
+                        <div class="album_cover_2">
+                            <img src="https://images.openai.com/static-rsc-4/-zzE57_k0IF6CJBsQdOdz4s3GSvKGZNYSzvbWoeteUeBm_sqm77tznA7eWQH6ypHE_vEsiSE2i0JcHhkNe7gH3fflZUzfyLUYrYRiQUuahupjnL5mpAI2r-1a4RZ45GAVm5b6xtOQUSht9IoYySPnMbHzYO6YJlFfvM8st6Wfzt_2QQH_i3GgYclt9medwgB?purpose=fullsize" alt="" class="cover_2">
+                        </div>
+                        <ol class="musics_2">
+                            Album 2
+                            <li>Rehab</li>
+                            <li>You Know I'm No Good</li>
+                            <li>Me & Mr Jones</li>
+                            <li>Just Friends</li>
+                            <li>Back to Black</li>
+                            <li>Love Is a Losing Game</li>
+                            <li>Tears Dry on Their Own</li>
+                            <li>Wake Up Alone</li>
+                            <li>Some Unholy War</li>
+                            <li>He Can Only Hold Her</li>
+                        </ol>
                     </div>
-                    <ol class="musics_2">
-                        Album 2
-                        <li>Rehab</li>
-                        <li>You Know I'm No Good</li>
-                        <li>Me & Mr Jones</li>
-                        <li>Just Friends</li>
-                        <li>Back to Black</li>
-                        <li>Love Is a Losing Game</li>
-                        <li>Tears Dry on Their Own</li>
-                        <li>Wake Up Alone</li>
-                        <li>Some Unholy War</li>
-                        <li>He Can Only Hold Her</li>
-                    </ol>
-                </div>
-                <div class="album_3">
-                    <div class="album_cover_3">
-                        <img src="https://images.openai.com/static-rsc-4/BO4mxG9Q1Q13My70UyCa-20V-LskaU6BIVGR0e49AXoSCrVuG9PY4YVwwdmJoAiwkShuOotOY0rpHQ2KxH-Peq36u4SYUZxXZNxKtezGD0oko4DQS1cum_ucxcbdgfsDHrCm17Xa2J4AazBSO8ne5uKg_ympc6rZ11qz6ORyAp1StNOgs--RKa9ueWZvtQXe?purpose=fullsize" alt="" class="cover_3">
+                    <div class="album_3">
+                        <div class="album_cover_3">
+                            <img src="https://images.openai.com/static-rsc-4/BO4mxG9Q1Q13My70UyCa-20V-LskaU6BIVGR0e49AXoSCrVuG9PY4YVwwdmJoAiwkShuOotOY0rpHQ2KxH-Peq36u4SYUZxXZNxKtezGD0oko4DQS1cum_ucxcbdgfsDHrCm17Xa2J4AazBSO8ne5uKg_ympc6rZ11qz6ORyAp1StNOgs--RKa9ueWZvtQXe?purpose=fullsize" alt="" class="cover_3">
+                        </div>
+                        <ol class="musics_3">
+                            Album 3
+                            <li>Our Day Will Come</li>
+                            <li>Between the Cheats</li>
+                            <li>Tears Dry</li>
+                            <li>Will You Still Love Me Tomorrow?</li>
+                            <li>Like Smoke</li>
+                            <li>Valerie</li>
+                            <li>The Girl from Ipanema</li>
+                            <li>Half Time</li>
+                            <li>Wake Up Alone</li>
+                            <li>Best Friends, Right?</li>
+                            <li>Body and Soul (feat. Tony Bennett)</li>
+                            <li>A Song for You</li>
+                        </ol>
                     </div>
-                    <ol class="musics_3">
-                        Album 3
-                        <li>Our Day Will Come</li>
-                        <li>Between the Cheats</li>
-                        <li>Tears Dry</li>
-                        <li>Will You Still Love Me Tomorrow?</li>
-                        <li>Like Smoke</li>
-                        <li>Valerie</li>
-                        <li>The Girl from Ipanema</li>
-                        <li>Half Time</li>
-                        <li>Wake Up Alone</li>
-                        <li>Best Friends, Right?</li>
-                        <li>Body and Soul (feat. Tony Bennett)</li>
-                        <li>A Song for You</li>
-                    </ol>
                 </div>
             </div>
-        </div>
-
-     </section>
+         </section>
+         <footer>
+            <div class="f_container">
+                2026 - Pagina de tributo
+            </div>
+         </footer>
+    </div>
 </body>
 </html>

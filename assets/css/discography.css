@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     background-color: #000000;
+    padding-bottom: 150px;
 }
 .title_discography{
     color: #fff;
@@ -11,22 +12,29 @@
     text-decoration-color:#8C111C ;
 }
 .album {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     margin-top:4% ;
+    max-height: 365px;
 }
 
 .album_1, .album_2, .album_3{
     display: flex;
     max-width: 30%;
+    height: auto;
     color: #fff;
+    margin-right: 15px;
+    box-shadow: 2px 4px 9px rgba(255, 255, 255, 0.25);
+}
+.album_1, .album_2{
+    padding-right: 15px;
 }
 .cover_1, .cover_2, .cover_3{
-
     width: 200px;
     margin-right: 10%;
 }
 .musics_1, .musics_2, .musics_3{
+    flex: 1;
     margin-right: 5%;
     font-size: 12px;
 }
