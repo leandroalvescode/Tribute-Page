@@ -81,7 +81,7 @@ header .compliment{
     word-spacing: 5px;
 }
 /* -----------------------------------Media Query--------------------------------------- */
-@media(max-width:1100px) {
+@media(max-width:635px) {
     header .name{
         font-size: 20px;
     }

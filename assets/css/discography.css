@@ -15,12 +15,12 @@
     display: flex;
     justify-content: center;
     margin-top:4% ;
-    max-height: 365px;
+    height: auto;
 }
 
 .album_1, .album_2, .album_3{
     display: flex;
-    max-width: 30%;
+    width: 100%;
     height: auto;
     color: #fff;
     margin-right: 15px;
@@ -30,7 +30,7 @@
     padding-right: 15px;
 }
 .cover_1, .cover_2, .cover_3{
-    width: 200px;
+    width: 80%;
     margin-right: 10%;
 }
 .musics_1, .musics_2, .musics_3{
@@ -40,4 +40,21 @@
 }
 li{
     margin-top: 5px;
+}
+
+/* --------------------------------------------Media Query-----------------------------------------*/
+@media(max-width: 1221px){
+    .album_1, .album_2, .album_3{
+        flex-direction: column;
+    }
+    .album_3{
+        margin-right: 0;
+    }
+}
+
+@media(max-width:700px){
+    .album{
+        flex-direction: column;
+        width: 100%;
+    }
 }

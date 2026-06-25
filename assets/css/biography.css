@@ -1,16 +1,21 @@
+.s_biography{
+    display: flex;
+}
 section .biography{
     display: flex;
     justify-content: center;
     align-items: center;
     width:100% ;
     height: auto;
-    max-height: 900px;
     padding-bottom: 30px;
     color: #fff;
     background-color: #000000;
 }
 .biography_text{
-    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
     width: 35%;
     margin-right: 10%;
     padding: 20px;
@@ -23,12 +28,14 @@ section .biography{
     text-decoration-color:#8C111B ;
 }
 .biography_text p{
+    align-items: center;
     line-height: 25px;
     font-size: 16px;
 }
 
 .b_image{
     display: flex;
+    width: 100%;
     max-width: 420px;
     border-left: 1px solid #fff;
     border-top: 1px solid #fff;
@@ -36,11 +43,29 @@ section .biography{
 
 .biography_image{
     display: flex;
+    justify-content: center;
     flex: 1;
     object-fit: cover;
     width: 100%;
     max-width: 420px;
-    height: 500px;
+    height: auto;
     margin-bottom: 10%;
     margin-top: 5%;
+}
+
+/* --------------------------------------------Media Query---------------------------------------------*/
+@media(max-width: 840px){
+    section .biography{
+        flex-direction: column;
+        padding-left:0 ;
+    }
+    .biography_text{
+        width: 90%;
+        margin-right:0 ;
+        padding-left: 10px;
+    }
+    .biography_image{
+        width: 90%;
+    }
+    
 }
