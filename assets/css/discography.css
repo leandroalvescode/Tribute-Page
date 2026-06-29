@@ -1,3 +1,4 @@
+
 .discography{
     display: flex;
     flex-direction: column;
@@ -16,27 +17,31 @@
     justify-content: center;
     margin-top:4% ;
     height: auto;
+    gap:15px
 }
 
-.album_1, .album_2, .album_3{
+.album_card{
     display: flex;
     width: 100%;
     height: auto;
+    max-width: 400px;
     color: #fff;
-    margin-right: 15px;
     box-shadow: 2px 4px 9px rgba(255, 255, 255, 0.25);
 }
-.album_1, .album_2{
-    padding-right: 15px;
-}
-.cover_1, .cover_2, .cover_3{
-    width: 80%;
+
+.cover {
+    width: 60%;
     margin-right: 10%;
 }
-.musics_1, .musics_2, .musics_3{
+.cover img{
+    width: 100%;
+    height: auto;
+}
+.musics ol{
     flex: 1;
     margin-right: 5%;
     font-size: 12px;
+    padding-left: 20px;
 }
 li{
     margin-top: 5px;
@@ -44,17 +49,25 @@ li{
 
 /* --------------------------------------------Media Query-----------------------------------------*/
 @media(max-width: 1221px){
-    .album_1, .album_2, .album_3{
+    .album_card{
         flex-direction: column;
+        align-items: center;
     }
-    .album_3{
+    .cover{
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .musics{
         margin-right: 0;
     }
 }
+
 
 @media(max-width:700px){
     .album{
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
 }
