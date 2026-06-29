@@ -11,9 +11,11 @@
     color: #fff;
     text-decoration: underline;
     text-decoration-color:#8C111C ;
+    margin-bottom: 50px;
 }
 .album {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top:4% ;
     height: auto;
@@ -22,15 +24,17 @@
 
 .album_card{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
-    max-width: 400px;
+    max-width: 320px;
+    padding: 30px;
     color: #fff;
     box-shadow: 2px 4px 9px rgba(255, 255, 255, 0.25);
 }
 
 .cover {
-    width: 60%;
+    width: 100%;
     margin-right: 10%;
 }
 .cover img{
